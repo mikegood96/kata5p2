@@ -1,19 +1,9 @@
-package kata4.model;
-
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
+package kata5.model;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-/**
- *
- * @author usuario
- */
 public class Histogram <T>{
     Map<T,Integer> map = new HashMap<>();
     
